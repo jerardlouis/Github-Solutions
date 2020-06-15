@@ -11,7 +11,7 @@
  * @param {number} val
  * @return {TreeNode}
  */
-
+//Runtime: 172 ms, Memory Usage: 44.3MB
 var insertIntoBST = function(root, val) {
    if(!root) return new TreeNode(val)
    if(root.val < val){
